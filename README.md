@@ -5,9 +5,8 @@ Rotate elasticsearch indizes
 
 Dependencies: https://github.com/jprante/elasticsearch-knapsack (Elasticsearch plugin for exporting indizes)
 
-Allows rotating of elasticsearch indizes in different steps
+Allows rotating of elasticsearch indizes in different steps/contingents:
 
-Contingents:
 1. closing indizes (saves performance)
 2. archiving indizes (saves disk-space)
 3. purging archived indizes
